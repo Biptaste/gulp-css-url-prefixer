@@ -1,19 +1,27 @@
 @font-face {
-    font-family: 'font';
-    src: url(/prefix/font/font.eot?54700537);
-    src: url(/prefix/font/font.eot?54700537#iefix) format('embedded-opentype'), url(/prefix/font/font.woff?54700537) format('woff');
+    font-family: 'FontAwesome';
+    src: url('/prefix/fonts/fontawesome-webfont.eot?v=4.3.0');
+    src: url('/prefix/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('/prefix/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('/prefix/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('/prefix/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('/prefix/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 .bg1 {
-    background: url(/prefix/img.png) blue repeat-y fixed;
+    background: url('/prefix/img.png') blue repeat-y fixed;
 }
 
 .bg2 {
-    background: url(/prefix/img.png) red repeat-y fixed;
+    background: url('/prefix/img.png') red repeat-y fixed;
 }
 
 .bg3 {
-    background: url(/prefix/img.png) yellow repeat-y fixed;
+    background: url('/prefix/img.png') yellow repeat-y fixed;
+}
+
+.bg4 {
+    background-image: url('/prefix/img1.jpg'), url('/prefix/img2.jpg');
+}
+
+.bg5 {
+    background-image: url(data:image/gif;base64,R0lGODlhAQABAAAAACw=);
 }
