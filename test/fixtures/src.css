@@ -1,7 +1,19 @@
 @font-face {
-  font-family: 'otnvs';
-  src: url('/font/otnvs.eot?54700537');
-  src: url('/font/otnvs.eot?54700537#iefix') format('embedded-opentype'), url('/font/otnvs.woff?54700537') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'font';
+    src: url('/font/font.eot?54700537');
+    src: url('/font/font.eot?54700537#iefix') format('embedded-opentype'), url('/font/font.woff?54700537') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg1 {
+    background: url(/img.png) blue repeat-y fixed;
+}
+
+.bg2 {
+    background: url('/img.png') red repeat-y fixed;
+}
+
+.bg3 {
+    background: url("/img.png") yellow repeat-y fixed;
 }

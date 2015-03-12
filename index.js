@@ -14,7 +14,7 @@ function gulpCssUrlPrefixer(assetsBaseUrl) {
         }
 
         if (file.isBuffer()) {
-            var reg = new RegExp("url[(]'?([^')]*)'?[)]", "g");
+            var reg = new RegExp("url[(]['\"]?([^'\")]*)['\"]?[)]", "g");
 
             var contents = file.contents.toString('utf8');
 
