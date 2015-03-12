@@ -9,7 +9,7 @@ var fs = require("fs"),
     cssAssets = require('../index');
 
 
-describe('gulp-css-assets', function() {
+describe('gulp-css-url-prefixer', function() {
     it('should work in buffer mode', function(done) {
         var srcFile = new gutil.File({
             contents: fs.readFileSync("test/fixtures/src.css")

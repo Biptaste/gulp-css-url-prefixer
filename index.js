@@ -3,10 +3,10 @@ var through = require('through2');
 var gutil = require('gulp-util');
 
 // Consts
-var PLUGIN_NAME = 'gulp-css-assets';
+var PLUGIN_NAME = 'gulp-css-url-prefixer';
 
 
-function gulpCssAssets(assetsBaseUrl) {
+function gulpCssUrlPrefixer(assetsBaseUrl) {
 
     return through.obj(function(file, enc, cb) {
         if (file.isNull()) {
@@ -31,4 +31,4 @@ function gulpCssAssets(assetsBaseUrl) {
     });
 }
 
-module.exports = gulpCssAssets;
+module.exports = gulpCssUrlPrefixer;

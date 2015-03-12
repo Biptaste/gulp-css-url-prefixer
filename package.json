@@ -1,5 +1,5 @@
 {
-  "name": "gulp-css-assets",
+  "name": "gulp-css-url-prefixer",
   "version": "0.1.0",
   "description": "Gulp plugin to prefix url in css with a base url",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Biptaste/gulp-css-assets.git"
+    "url": "git://github.com/Biptaste/gulp-css-url-prefixer.git"
   },
   "keywords": [
     "gulpplugin"
