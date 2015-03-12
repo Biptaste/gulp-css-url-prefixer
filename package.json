@@ -1,6 +1,6 @@
 {
   "name": "gulp-css-url-prefixer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp plugin to prefix url in css with a base url",
   "main": "index.js",
   "scripts": {
