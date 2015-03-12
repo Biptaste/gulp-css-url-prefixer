@@ -1,0 +1,26 @@
+{
+  "name": "gulp-css-assets",
+  "version": "0.1.0",
+  "description": "Gulp plugin to prefix url in css with a base url",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Biptaste/gulp-css-assets.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "Baptiste Ducatel",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  }
+}
