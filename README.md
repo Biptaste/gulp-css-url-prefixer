@@ -6,17 +6,17 @@ Gulp plugin to prefix url in css with a base url
 Install via npm:
 
 ```
-npm install gulp-css-assets --save-dev
+npm install gulp-css-url-prefixer --save-dev
 ```
 
 ## Usage
 
 ```js
-var cssAssets = require('gulp-css-assets');
+var urlPrefixer = require('gulp-css-url-prefixer');
 
-gulp.task('scripts', function() {
+gulp.task('css-assets', function() {
   return gulp.src('src.css')
-    .pipe(cssAssets('http://example.com'))
+    .pipe(urlPrefixer('http://example.com'))
     .pipe(gulp.dest('style.css'));
 });
 ```
